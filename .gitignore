@@ -5,4 +5,3 @@ __pycache__/
 .pytest_cache/
 logs/
 .DS_Store
-forecasting-system/app/saved_models/
