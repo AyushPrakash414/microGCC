@@ -1,0 +1,53 @@
+{
+  "state": "South Dakota",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:10:31.040773Z",
+  "models": {
+    "arima": {
+      "rmse": 29145895.8805,
+      "mae": 16654830.0243,
+      "mape": 135.9664,
+      "training_time_seconds": 10.709,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\South Dakota\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 21330266.0935,
+      "mae": 19352286.274,
+      "mape": 75.5929,
+      "training_time_seconds": 2.193,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\South Dakota\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 18175772.5727,
+      "mae": 15649976.7438,
+      "mape": 35.688,
+      "training_time_seconds": 3.247,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\South Dakota\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 18953802.2341,
+      "mae": 15635468.6159,
+      "mape": 77.2723,
+      "training_time_seconds": 73.218,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\South Dakota\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

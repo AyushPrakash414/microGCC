@@ -1,0 +1,53 @@
+{
+  "state": "Missouri",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:06:57.275628Z",
+  "models": {
+    "arima": {
+      "rmse": 198317260.5577,
+      "mae": 115312378.2006,
+      "mape": 136.2999,
+      "training_time_seconds": 4.692,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Missouri\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 145327901.3069,
+      "mae": 132496109.2067,
+      "mape": 75.4163,
+      "training_time_seconds": 1.377,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Missouri\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 108533240.9329,
+      "mae": 86832720.325,
+      "mape": 22.6105,
+      "training_time_seconds": 7.402,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Missouri\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 128316400.0869,
+      "mae": 105363038.8473,
+      "mape": 77.8193,
+      "training_time_seconds": 22.394,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Missouri\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

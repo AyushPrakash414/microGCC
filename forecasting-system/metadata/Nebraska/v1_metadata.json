@@ -1,0 +1,53 @@
+{
+  "state": "Nebraska",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:06:58.869631Z",
+  "models": {
+    "arima": {
+      "rmse": 59723771.9374,
+      "mae": 31184001.514,
+      "mape": 131.8663,
+      "training_time_seconds": 4.308,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nebraska\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 44229942.793,
+      "mae": 38173659.5812,
+      "mape": 79.1153,
+      "training_time_seconds": 1.242,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nebraska\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 35308272.7512,
+      "mae": 28969330.9563,
+      "mape": 29.8429,
+      "training_time_seconds": 7.13,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nebraska\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 40282876.8656,
+      "mae": 30395684.057,
+      "mape": 81.8945,
+      "training_time_seconds": 22.771,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nebraska\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

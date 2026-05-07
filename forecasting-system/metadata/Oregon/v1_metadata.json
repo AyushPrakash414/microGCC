@@ -1,0 +1,53 @@
+{
+  "state": "Oregon",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:08:51.685888Z",
+  "models": {
+    "arima": {
+      "rmse": 114809055.8405,
+      "mae": 67187364.2159,
+      "mape": 135.3137,
+      "training_time_seconds": 3.651,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oregon\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 85172250.1499,
+      "mae": 77015565.0879,
+      "mape": 76.3406,
+      "training_time_seconds": 10.846,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oregon\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 70689405.8609,
+      "mae": 60916363.975,
+      "mape": 40.43,
+      "training_time_seconds": 2.307,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oregon\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 75929413.3779,
+      "mae": 63466639.6712,
+      "mape": 76.6657,
+      "training_time_seconds": 28.679,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oregon\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

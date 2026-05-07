@@ -1,0 +1,53 @@
+{
+  "state": "New Mexico",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:07:40.961249Z",
+  "models": {
+    "arima": {
+      "rmse": 74576132.092,
+      "mae": 41790699.1434,
+      "mape": 135.5951,
+      "training_time_seconds": 3.128,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Mexico\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 54248628.6253,
+      "mae": 48413369.8761,
+      "mape": 77.5488,
+      "training_time_seconds": 1.251,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Mexico\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 45418547.3353,
+      "mae": 36497385.5187,
+      "mape": 32.591,
+      "training_time_seconds": 8.926,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Mexico\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 48469956.0449,
+      "mae": 39776913.9636,
+      "mape": 77.5593,
+      "training_time_seconds": 20.475,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Mexico\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

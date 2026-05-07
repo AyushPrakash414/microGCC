@@ -1,0 +1,53 @@
+{
+  "state": "Vermont",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:11:09.378677Z",
+  "models": {
+    "arima": {
+      "rmse": 18628985.5129,
+      "mae": 10489259.9602,
+      "mape": 137.1133,
+      "training_time_seconds": 3.649,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Vermont\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 13694417.757,
+      "mae": 12520043.1424,
+      "mape": 74.8928,
+      "training_time_seconds": 1.513,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Vermont\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 8418843.1405,
+      "mae": 7537507.4125,
+      "mape": 37.6325,
+      "training_time_seconds": 2.676,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Vermont\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 11985821.5554,
+      "mae": 9590913.1731,
+      "mape": 78.9315,
+      "training_time_seconds": 19.474,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Vermont\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

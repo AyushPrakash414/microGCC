@@ -1,0 +1,53 @@
+{
+  "state": "Nevada",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:07:07.846027Z",
+  "models": {
+    "arima": {
+      "rmse": 105657741.1101,
+      "mae": 59320261.5359,
+      "mape": 136.4431,
+      "training_time_seconds": 3.254,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nevada\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 77942656.0205,
+      "mae": 70774654.9415,
+      "mape": 76.3915,
+      "training_time_seconds": 0.971,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nevada\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 56573697.8131,
+      "mae": 46268736.425,
+      "mape": 31.6202,
+      "training_time_seconds": 8.368,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nevada\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 69758947.8392,
+      "mae": 59720267.1552,
+      "mape": 75.4633,
+      "training_time_seconds": 23.229,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Nevada\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "state": "Pennsylvania",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:08:51.474889Z",
+  "models": {
+    "arima": {
+      "rmse": 375185585.2049,
+      "mae": 214276078.0444,
+      "mape": 136.093,
+      "training_time_seconds": 4.555,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Pennsylvania\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 274670446.2652,
+      "mae": 250763009.1031,
+      "mape": 74.9855,
+      "training_time_seconds": 1.125,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Pennsylvania\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 145433379.9014,
+      "mae": 124533230.325,
+      "mape": 28.0051,
+      "training_time_seconds": 2.006,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Pennsylvania\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 239185730.7191,
+      "mae": 185301012.158,
+      "mape": 80.3921,
+      "training_time_seconds": 27.849,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Pennsylvania\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "state": "Florida",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:03:58.169263Z",
+  "models": {
+    "arima": {
+      "rmse": 1270861607.2682,
+      "mae": 1003466984.0249,
+      "mape": 195.1118,
+      "training_time_seconds": 6.639,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Florida\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 578035832.8793,
+      "mae": 523320520.5641,
+      "mape": 76.195,
+      "training_time_seconds": 1.078,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Florida\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 401956542.1002,
+      "mae": 304434443.6875,
+      "mape": 55.9382,
+      "training_time_seconds": 4.441,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Florida\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 511522571.6878,
+      "mae": 419887446.627,
+      "mape": 77.5721,
+      "training_time_seconds": 41.914,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Florida\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

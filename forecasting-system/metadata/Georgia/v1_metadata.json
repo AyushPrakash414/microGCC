@@ -1,0 +1,53 @@
+{
+  "state": "Georgia",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:04:00.314338Z",
+  "models": {
+    "arima": {
+      "rmse": 390274341.4722,
+      "mae": 225958731.2355,
+      "mape": 135.9467,
+      "training_time_seconds": 6.975,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Georgia\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 286986203.3363,
+      "mae": 259841480.3277,
+      "mape": 76.2018,
+      "training_time_seconds": 1.028,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Georgia\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 198275316.2373,
+      "mae": 166284251.6,
+      "mape": 39.6632,
+      "training_time_seconds": 4.428,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Georgia\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 251343861.3016,
+      "mae": 196433756.0592,
+      "mape": 80.1298,
+      "training_time_seconds": 43.601,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Georgia\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

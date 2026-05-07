@@ -1,0 +1,53 @@
+{
+  "state": "Michigan",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:06:14.558685Z",
+  "models": {
+    "arima": {
+      "rmse": 299568559.0424,
+      "mae": 175701083.5875,
+      "mape": 135.5565,
+      "training_time_seconds": 4.788,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Michigan\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 216712132.8686,
+      "mae": 193362416.9445,
+      "mape": 77.1044,
+      "training_time_seconds": 1.212,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Michigan\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 146341586.1112,
+      "mae": 116134077.95,
+      "mape": 52.7106,
+      "training_time_seconds": 7.421,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Michigan\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 195080015.1565,
+      "mae": 160156611.3244,
+      "mape": 77.6782,
+      "training_time_seconds": 23.768,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Michigan\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

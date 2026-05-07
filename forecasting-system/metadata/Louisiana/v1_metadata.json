@@ -1,0 +1,53 @@
+{
+  "state": "Louisiana",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:05:30.989721Z",
+  "models": {
+    "arima": {
+      "rmse": 189284026.3061,
+      "mae": 104504739.5368,
+      "mape": 136.295,
+      "training_time_seconds": 3.12,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Louisiana\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 139706180.3898,
+      "mae": 127239635.1204,
+      "mape": 75.6036,
+      "training_time_seconds": 4.817,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Louisiana\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 115703499.8823,
+      "mae": 92065701.3375,
+      "mape": 55.4033,
+      "training_time_seconds": 4.902,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Louisiana\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 122817508.1471,
+      "mae": 101107276.974,
+      "mape": 77.2269,
+      "training_time_seconds": 20.988,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Louisiana\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

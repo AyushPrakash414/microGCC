@@ -1,0 +1,45 @@
+# =====================================================
+# Time Series Forecasting System - Dependencies
+# =====================================================
+
+# --- Web Framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# --- Data Processing ---
+pandas==2.2.3
+numpy==1.26.4
+openpyxl==3.1.5
+
+# --- Machine Learning ---
+scikit-learn==1.6.1
+xgboost==2.1.3
+statsmodels==0.14.4
+
+# --- Deep Learning ---
+tensorflow==2.18.0
+
+# --- Prophet ---
+prophet==1.1.6
+
+# --- Model Persistence ---
+joblib==1.4.2
+
+# --- Visualization ---
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# --- Configuration ---
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+pyyaml==6.0.2
+
+# --- Holidays ---
+holidays==0.63
+
+# --- Testing ---
+pytest==8.3.4
+httpx==0.28.1
+
+# --- Utilities ---
+cachetools==5.5.1

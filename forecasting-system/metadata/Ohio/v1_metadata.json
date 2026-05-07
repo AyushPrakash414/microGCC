@@ -1,0 +1,53 @@
+{
+  "state": "Ohio",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:08:15.510731Z",
+  "models": {
+    "arima": {
+      "rmse": 381688962.0888,
+      "mae": 220425156.1044,
+      "mape": 135.4102,
+      "training_time_seconds": 3.455,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Ohio\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 279952966.0663,
+      "mae": 252326490.6051,
+      "mape": 76.5187,
+      "training_time_seconds": 7.781,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Ohio\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 191556249.2282,
+      "mae": 153137333.3,
+      "mape": 20.1682,
+      "training_time_seconds": 2.511,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Ohio\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 247146800.0232,
+      "mae": 195139913.238,
+      "mape": 79.7742,
+      "training_time_seconds": 35.082,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Ohio\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

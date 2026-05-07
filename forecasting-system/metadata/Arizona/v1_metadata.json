@@ -1,0 +1,53 @@
+{
+  "state": "Arizona",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:02:35.099839Z",
+  "models": {
+    "arima": {
+      "rmse": 231277930.9278,
+      "mae": 126055166.1934,
+      "mape": 136.6032,
+      "training_time_seconds": 27.19,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Arizona\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 170220773.4036,
+      "mae": 156216154.0295,
+      "mape": 74.9002,
+      "training_time_seconds": 5.463,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Arizona\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 123973899.1672,
+      "mae": 105886582.05,
+      "mape": 24.3786,
+      "training_time_seconds": 2.363,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Arizona\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 150358777.0975,
+      "mae": 125617920.6738,
+      "mape": 77.0454,
+      "training_time_seconds": 59.023,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Arizona\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

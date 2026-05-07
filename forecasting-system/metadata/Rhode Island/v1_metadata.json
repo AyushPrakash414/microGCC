@@ -1,0 +1,53 @@
+{
+  "state": "Rhode Island",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:09:24.311599Z",
+  "models": {
+    "arima": {
+      "rmse": 26663393.3358,
+      "mae": 14985258.9818,
+      "mape": 136.6287,
+      "training_time_seconds": 3.214,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Rhode Island\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 19168882.6068,
+      "mae": 17149325.4231,
+      "mape": 76.6882,
+      "training_time_seconds": 1.557,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Rhode Island\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 12239035.6779,
+      "mae": 10135356.7375,
+      "mape": 39.6733,
+      "training_time_seconds": 5.703,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Rhode Island\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 17230733.9694,
+      "mae": 14186411.8191,
+      "mape": 77.33,
+      "training_time_seconds": 44.874,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Rhode Island\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

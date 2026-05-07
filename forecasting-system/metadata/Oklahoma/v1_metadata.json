@@ -1,0 +1,53 @@
+{
+  "state": "Oklahoma",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:08:41.448497Z",
+  "models": {
+    "arima": {
+      "rmse": 150250470.33,
+      "mae": 83171287.9413,
+      "mape": 137.0016,
+      "training_time_seconds": 3.229,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oklahoma\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 110152370.915,
+      "mae": 100649902.5938,
+      "mape": 75.1984,
+      "training_time_seconds": 3.158,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oklahoma\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 89215454.582,
+      "mae": 75342386.3875,
+      "mape": 44.9938,
+      "training_time_seconds": 2.64,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oklahoma\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 97978135.8605,
+      "mae": 82657511.8225,
+      "mape": 76.2784,
+      "training_time_seconds": 25.708,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Oklahoma\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

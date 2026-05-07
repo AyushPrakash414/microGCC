@@ -1,0 +1,53 @@
+{
+  "state": "Massachusetts",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:06:14.442743Z",
+  "models": {
+    "arima": {
+      "rmse": 190064444.3717,
+      "mae": 107051599.3468,
+      "mape": 135.5506,
+      "training_time_seconds": 3.344,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Massachusetts\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 137851568.2525,
+      "mae": 124279472.1008,
+      "mape": 75.9224,
+      "training_time_seconds": 1.631,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Massachusetts\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 86981569.8186,
+      "mae": 70250995.0,
+      "mape": 31.19,
+      "training_time_seconds": 7.5,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Massachusetts\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 124448916.4275,
+      "mae": 104204702.5951,
+      "mape": 76.6369,
+      "training_time_seconds": 23.47,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Massachusetts\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

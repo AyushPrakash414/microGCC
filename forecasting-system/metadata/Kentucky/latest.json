@@ -1,0 +1,5 @@
+{
+  "best_model": "xgboost",
+  "version": "v1",
+  "rmse": 108700688.1356
+}

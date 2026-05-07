@@ -1,0 +1,53 @@
+{
+  "state": "West Virginia",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:11:42.889280Z",
+  "models": {
+    "arima": {
+      "rmse": 76883344.1073,
+      "mae": 42087567.5634,
+      "mape": 136.3252,
+      "training_time_seconds": 4.196,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\West Virginia\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 56107062.5978,
+      "mae": 50706150.3018,
+      "mape": 76.1552,
+      "training_time_seconds": 0.978,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\West Virginia\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 40204551.0633,
+      "mae": 34020022.0438,
+      "mape": 23.6967,
+      "training_time_seconds": 6.482,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\West Virginia\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 50848781.7048,
+      "mae": 43582070.5295,
+      "mape": 75.3369,
+      "training_time_seconds": 16.46,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\West Virginia\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

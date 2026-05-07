@@ -1,0 +1,53 @@
+{
+  "state": "New Hampshire",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:07:17.341776Z",
+  "models": {
+    "arima": {
+      "rmse": 57304710.7543,
+      "mae": 32468101.409,
+      "mape": 135.6361,
+      "training_time_seconds": 3.214,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Hampshire\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 41874256.907,
+      "mae": 37920414.5172,
+      "mape": 75.6334,
+      "training_time_seconds": 7.121,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Hampshire\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 29719979.2914,
+      "mae": 24692799.5562,
+      "mape": 52.5789,
+      "training_time_seconds": 2.299,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Hampshire\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 37351789.2059,
+      "mae": 30334773.8505,
+      "mape": 78.512,
+      "training_time_seconds": 22.502,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\New Hampshire\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

@@ -1,0 +1,60 @@
+# =====================================================
+# Forecasting System Configuration
+# =====================================================
+
+forecasting:
+  horizon: 8           # weeks to forecast
+  validation_weeks: 8  # weeks held out for validation
+  min_data_weeks: 52   # minimum data required per state
+  frequency: "W"       # weekly resampling
+
+features:
+  lag_periods: [1, 7, 30]
+  rolling_windows: [7, 30]
+  date_features:
+    - day_of_week
+    - week_of_year
+    - month
+    - quarter
+    - year
+    - is_weekend
+  holiday_country: "US"
+
+models:
+  arima:
+    order: [1, 1, 1]
+    seasonal_order: [1, 1, 1, 52]
+    enforce_stationarity: false
+    enforce_invertibility: false
+  prophet:
+    yearly_seasonality: true
+    weekly_seasonality: true
+    daily_seasonality: false
+    changepoint_prior_scale: 0.05
+  xgboost:
+    n_estimators: 500
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    early_stopping_rounds: 50
+    random_state: 42
+  lstm:
+    units: 64
+    dropout: 0.2
+    epochs: 100
+    batch_size: 16
+    sequence_length: 12
+    patience: 10
+
+evaluation:
+  primary_metric: "rmse"
+  metrics:
+    - rmse
+    - mae
+    - mape
+
+logging:
+  level: INFO
+  format: "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
+  file: "logs/app.log"

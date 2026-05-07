@@ -1,0 +1,53 @@
+{
+  "state": "California",
+  "best_model": "xgboost",
+  "version": "v2",
+  "timestamp": "2026-05-07T08:02:42.224906Z",
+  "models": {
+    "arima": {
+      "rmse": 901787663.0304,
+      "mae": 514781057.5563,
+      "mape": 135.6154,
+      "training_time_seconds": 26.023,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\California\\v2\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 670541195.5561,
+      "mae": 610782910.0752,
+      "mape": 75.864,
+      "training_time_seconds": 5.66,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\California\\v2\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 508038152.9794,
+      "mae": 451795884.975,
+      "mape": 39.4438,
+      "training_time_seconds": 2.387,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\California\\v2\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 582475633.8195,
+      "mae": 458961571.2219,
+      "mape": 79.6232,
+      "training_time_seconds": 60.048,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\California\\v2\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

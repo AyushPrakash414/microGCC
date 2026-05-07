@@ -1,0 +1,5 @@
+{
+  "best_model": "lstm",
+  "version": "v1",
+  "rmse": 122141440.6535
+}

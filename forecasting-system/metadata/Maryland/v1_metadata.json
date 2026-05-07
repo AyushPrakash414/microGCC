@@ -1,0 +1,53 @@
+{
+  "state": "Maryland",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:05:40.980612Z",
+  "models": {
+    "arima": {
+      "rmse": 168112546.4711,
+      "mae": 97090150.1545,
+      "mape": 135.9269,
+      "training_time_seconds": 5.161,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Maryland\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 121972184.4576,
+      "mae": 110067512.8436,
+      "mape": 75.9746,
+      "training_time_seconds": 1.01,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Maryland\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 93651183.2164,
+      "mae": 75242376.6375,
+      "mape": 58.2448,
+      "training_time_seconds": 3.65,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Maryland\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 110137584.5631,
+      "mae": 93358721.9449,
+      "mape": 75.7676,
+      "training_time_seconds": 28.182,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Maryland\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

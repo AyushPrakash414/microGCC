@@ -1,0 +1,53 @@
+{
+  "state": "Mississippi",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:06:34.704124Z",
+  "models": {
+    "arima": {
+      "rmse": 120918304.2367,
+      "mae": 62840229.8494,
+      "mape": 133.2131,
+      "training_time_seconds": 3.167,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Mississippi\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 88716949.352,
+      "mae": 76996896.2485,
+      "mape": 78.3832,
+      "training_time_seconds": 5.71,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Mississippi\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 61572615.2424,
+      "mae": 48079483.1031,
+      "mape": 52.3789,
+      "training_time_seconds": 2.659,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Mississippi\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 83057391.1263,
+      "mae": 69280867.14,
+      "mape": 77.301,
+      "training_time_seconds": 21.829,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Mississippi\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

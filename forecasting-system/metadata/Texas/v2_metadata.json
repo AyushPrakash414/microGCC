@@ -1,0 +1,53 @@
+{
+  "state": "Texas",
+  "best_model": "xgboost",
+  "version": "v2",
+  "timestamp": "2026-05-07T08:10:50.622973Z",
+  "models": {
+    "arima": {
+      "rmse": 1219277619.9135,
+      "mae": 805375119.5186,
+      "mape": 176.485,
+      "training_time_seconds": 38.054,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Texas\\v2\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 675927968.5521,
+      "mae": 605979468.2476,
+      "mape": 77.1413,
+      "training_time_seconds": 5.77,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Texas\\v2\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 467738079.8135,
+      "mae": 425977101.825,
+      "mape": 33.5495,
+      "training_time_seconds": 1.331,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Texas\\v2\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 601097114.4279,
+      "mae": 486054912.8253,
+      "mape": 78.529,
+      "training_time_seconds": 31.09,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Texas\\v2\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

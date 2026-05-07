@@ -1,0 +1,53 @@
+{
+  "state": "North Carolina",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:07:50.425674Z",
+  "models": {
+    "arima": {
+      "rmse": 369271645.6424,
+      "mae": 206401430.7033,
+      "mape": 136.8954,
+      "training_time_seconds": 3.168,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\North Carolina\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 269662928.1996,
+      "mae": 244701259.3742,
+      "mape": 76.159,
+      "training_time_seconds": 0.757,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\North Carolina\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 196342031.2798,
+      "mae": 159025205.9375,
+      "mape": 16.8777,
+      "training_time_seconds": 8.837,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\North Carolina\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 239092777.3529,
+      "mae": 195650648.8605,
+      "mape": 78.3379,
+      "training_time_seconds": 16.187,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\North Carolina\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

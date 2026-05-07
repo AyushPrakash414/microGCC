@@ -1,0 +1,53 @@
+{
+  "state": "Wyoming",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:11:43.236656Z",
+  "models": {
+    "arima": {
+      "rmse": 21919557.183,
+      "mae": 12099908.6776,
+      "mape": 138.0733,
+      "training_time_seconds": 2.609,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Wyoming\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 15713990.0109,
+      "mae": 13976542.2981,
+      "mape": 77.5388,
+      "training_time_seconds": 0.757,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Wyoming\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 12972182.7694,
+      "mae": 10683836.0437,
+      "mape": 59.227,
+      "training_time_seconds": 4.119,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Wyoming\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 14159787.8998,
+      "mae": 11640829.9441,
+      "mape": 77.599,
+      "training_time_seconds": 13.481,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Wyoming\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}

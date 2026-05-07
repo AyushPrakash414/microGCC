@@ -1,0 +1,53 @@
+{
+  "state": "Illinois",
+  "best_model": "xgboost",
+  "version": "v1",
+  "timestamp": "2026-05-07T08:04:49.620727Z",
+  "models": {
+    "arima": {
+      "rmse": 332655826.1666,
+      "mae": 186911119.4809,
+      "mape": 135.3204,
+      "training_time_seconds": 3.637,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Illinois\\v1\\arima.pkl"
+    },
+    "prophet": {
+      "rmse": 245377779.233,
+      "mae": 224308163.5126,
+      "mape": 74.824,
+      "training_time_seconds": 2.391,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Illinois\\v1\\prophet.pkl"
+    },
+    "xgboost": {
+      "rmse": 147230798.0111,
+      "mae": 126307938.3,
+      "mape": 32.1343,
+      "training_time_seconds": 11.118,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Illinois\\v1\\xgboost.pkl"
+    },
+    "lstm": {
+      "rmse": 217394539.691,
+      "mae": 180371934.6618,
+      "mape": 77.1282,
+      "training_time_seconds": 33.877,
+      "model_path": "C:\\Users\\praka\\OneDrive\\Desktop\\Machine Learning\\microgcc-Assignment\\forecasting-system\\app\\saved_models\\Illinois\\v1\\lstm.keras"
+    }
+  },
+  "features_used": [
+    "Total",
+    "lag_1",
+    "lag_7",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_std_7",
+    "rolling_mean_30",
+    "rolling_std_30",
+    "day_of_week",
+    "week_of_year",
+    "month",
+    "quarter",
+    "year",
+    "is_weekend",
+    "is_holiday"
+  ]
+}
